@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using LoggingService.v1.Data;
+﻿using LoggingService.v1.Data;
 using LoggingService.v1.Entities;
 using LoggingService.v1.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace LoggingService.v1.Repositories
 {

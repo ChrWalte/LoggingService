@@ -5,7 +5,9 @@ namespace LoggingService.v1.Data
 {
     public class LogContext : DbContext
     {
-        public LogContext(DbContextOptions<LogContext> options) : base(options) { }
+        public LogContext(DbContextOptions<LogContext> options) : base(options)
+        {
+        }
 
         public DbSet<LogEntity> Logs { get; set; }
 

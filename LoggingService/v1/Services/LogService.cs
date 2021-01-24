@@ -1,8 +1,8 @@
-﻿using System;
+﻿using LoggingService.v1.Entities;
+using LoggingService.v1.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using LoggingService.v1.Entities;
-using LoggingService.v1.Interfaces;
 
 namespace LoggingService.v1.Services
 {
@@ -14,7 +14,7 @@ namespace LoggingService.v1.Services
         public LogService(T location, ILogRepository repository)
         {
             _location = location;
-            _repository = repository; 
+            _repository = repository;
         }
 
         public async Task<IEnumerable<LogEntity>> GetLogs()
